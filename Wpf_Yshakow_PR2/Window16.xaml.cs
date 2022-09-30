@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace Wpf_Yshakow_PR2
 {
     /// <summary>
-    /// Логика взаимодействия для Window12.xaml
+    /// Логика взаимодействия для Window16.xaml
     /// </summary>
-    public partial class Window12 : Window
+    public partial class Window16 : Window
     {
-        public Window12()
+        public Window16()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Button.Background = Brushes.Green;
         }
     }
 }

@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="Window13" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel>
+            <Button Margin="5" HorizontalContentAlignment="Left" Content="Left" Height="30" Width="390" />
+            <Button Margin="5" HorizontalContentAlignment="Right" Content="Right" Height="30" Width="390" />
+            <Button Margin="5" HorizontalContentAlignment="Center" Content="Center" Height="30" Width="390"/>
+        </StackPanel>
     </Grid>
 </Window>

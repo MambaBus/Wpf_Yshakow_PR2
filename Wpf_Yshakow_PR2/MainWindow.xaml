@@ -22,5 +22,6 @@
         <Button Content="Пример 13" HorizontalAlignment="Left" Margin="330,84,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_12"/>
         <Button Content="Пример 14" HorizontalAlignment="Left" Margin="430,84,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_13"/>
         <Button Content="Пример 15" HorizontalAlignment="Left" Margin="530,84,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_14"/>
+        <Button Content="Пример 16" HorizontalAlignment="Left" Margin="630,84,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_15"/>
     </Grid>
 </Window>
