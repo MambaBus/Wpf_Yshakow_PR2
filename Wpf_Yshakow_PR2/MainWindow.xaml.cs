@@ -121,5 +121,11 @@ namespace Wpf_Yshakow_PR2
             Window16 window16 = new Window16();
             window16.Show();
         }
+
+        private void Button_Click_16(object sender, RoutedEventArgs e)
+        {
+            Window17 window17 = new Window17();
+            window17.Show();
+        }
     }
 }
