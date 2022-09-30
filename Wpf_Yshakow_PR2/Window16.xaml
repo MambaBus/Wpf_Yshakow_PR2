@@ -8,5 +8,7 @@
         Title="Window16" Height="450" Width="800">
     <Grid>
         <Button Width="60" Height="30" Content="Цвет" FontSize="20" Foreground="red" FontWeight="Bold"/>
+        <TextBlock>
+            <Run FontWeight="Bold">Однажды в студеную зимнюю пору</Run> Я из лесу вышел <LineBreak/> Был сильный мороз </TextBlock>
     </Grid>
 </Window>
