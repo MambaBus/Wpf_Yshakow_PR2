@@ -7,13 +7,6 @@
         mc:Ignorable="d"
         Title="Window16" Height="450" Width="800">
     <Grid>
-        <Button Width="60" Height="30" Content="Цвет">
-            <Button.Background>
-                <SolidColorBrush Color="LightGray"/>
-            </Button.Background>
-            <Button.Foreground>
-                <SolidColorBrush Color="DarkRed"/>
-            </Button.Foreground>
-        </Button>
+        <Button Width="60" Height="30" Content="Цвет" FontSize="20" Foreground="red" FontWeight="Bold"/>
     </Grid>
 </Window>
