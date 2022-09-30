@@ -15,5 +15,12 @@
         <Button Content="Пример 6" HorizontalAlignment="Left" Margin="430,24,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_5"/>
         <Button Content="Пример 7" HorizontalAlignment="Left" Margin="430,24,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_6"/>
         <Button Content="Пример 8" HorizontalAlignment="Left" Margin="530,24,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_7"/>
+        <Button Content="Пример 9" HorizontalAlignment="Left" Margin="630,24,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_8"/>
+        <Button Content="Пример 10" HorizontalAlignment="Left" Margin="25,84,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_9"/>
+        <Button Content="Пример 11" HorizontalAlignment="Left" Margin="130,84,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_10"/>
+        <Button Content="Пример 12" HorizontalAlignment="Left" Margin="230,84,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_11"/>
+        <Button Content="Пример 13" HorizontalAlignment="Left" Margin="330,84,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_12"/>
+        <Button Content="Пример 14" HorizontalAlignment="Left" Margin="430,84,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_13"/>
+        <Button Content="Пример 15" HorizontalAlignment="Left" Margin="530,84,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_14"/>
     </Grid>
 </Window>

@@ -13,8 +13,13 @@
             <MenuItem Header="_Сохранить" />
             <Separator/>
             <MenuItem Header="_Закрыть" />
-        </MenuItem>
+                <CheckBox Content="Предупреждать о несохраненных данных при закрытии"/>
+                <RadioButton GroupName="codepage" Content="Windows-1251"/>
+                <RadioButton GroupName="codepage" Content="Koi8-r"/>
+                <RadioButton GroupName="codepage" Content="UTF-8"/>
+            </MenuItem>
         <MenuItem Header="_О программе" />
         </Menu>
+       
     </Grid>
 </Window>

@@ -73,5 +73,47 @@ namespace Wpf_Yshakow_PR2
             Window8 window8 = new Window8();
             window8.Show();
         }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            Window9 window9 = new Window9();
+            window9.Show();
+        }
+
+        private void Button_Click_9(object sender, RoutedEventArgs e)
+        {
+            Window10 window10 = new Window10();
+            window10.Show();
+        }
+
+        private void Button_Click_10(object sender, RoutedEventArgs e)
+        {
+            Window11 window11 = new Window11();
+            window11.Show();
+        }
+
+        private void Button_Click_11(object sender, RoutedEventArgs e)
+        {
+            Window12 window12 = new Window12();
+            window12.Show();
+        }
+
+        private void Button_Click_12(object sender, RoutedEventArgs e)
+        {
+            Window13 window13 = new Window13();
+            window13.Show();
+        }
+
+        private void Button_Click_13(object sender, RoutedEventArgs e)
+        {
+            Window14 window14 = new Window14();
+            window14.Show();
+        }
+
+        private void Button_Click_14(object sender, RoutedEventArgs e)
+        {
+            Window15 window15 = new Window15();
+            window15.Show();
+        }
     }
 }
