@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Button Content="Пример 1" HorizontalAlignment="Left" Margin="25,24,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click"/>
+        <Button Content="Пример 2" HorizontalAlignment="Left" Margin="130,24,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_1"/>
+        <Button Content="Пример 3" HorizontalAlignment="Left" Margin="230,24,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_2"/>
+        <Button Content="Пример 4" HorizontalAlignment="Left" Margin="330,24,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_3"/>
     </Grid>
 </Window>
