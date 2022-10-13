@@ -5,8 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Yshakow_PR2"
         mc:Ignorable="d"
-        Title="Самостоятельная работа Ушаков Сергей" Height="450" Width="800">
+        Title="Самостоятельная работа Ушаков Сергей" Height="450" Width="760">
     <Grid>
-        
+        <Menu BorderBrush="Black" BorderThickness="1" Margin="0,0,430,340" Background="#FF21ECAF">
+            <MenuItem Header="Меню" Height="24" Width="90">
+                <Button Content="Изменить цвет фона" Click="Button_Click" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" />
+                <Button Content="Получить информацию о разработчике" Click="Button_Click_1" MouseEnter="Button_MouseEnter_1" MouseLeave="Button_MouseLeave_1" />
+                <Button Content="Задание 2" Click="Button_Click_2" MouseEnter="Button_MouseEnter_2" MouseLeave="Button_MouseLeave_2" />
+                <Button Content="Закрыть" Click="Button_Click_3" MouseEnter="Button_MouseEnter_3" MouseLeave="Button_MouseLeave_3" />
+            </MenuItem>
+        </Menu>
+
+        <ToolBar Margin="-8,25,-11,325" RenderTransformOrigin="0.5,0.5" Background="#FF25E0CA">
+            <ToolBar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.419"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ToolBar.RenderTransform>
+            <Button Content="Изменить цвет фона" Click="Button_Click" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Background="#FF9BADA8" />
+            <Button Content="Получить информацию о разработчике" Click="Button_Click_1" MouseEnter="Button_MouseEnter_1" MouseLeave="Button_MouseLeave_1" Background="#FF9BADA8" />
+            <Button Content="Задание 2" Click="Button_Click_2" MouseEnter="Button_MouseEnter_2" MouseLeave="Button_MouseLeave_2" Background="#FF9BADA8" />
+            <Button Content="Закрыть" Click="Button_Click_3" MouseEnter="Button_MouseEnter_3" MouseLeave="Button_MouseLeave_3" Background="#FF9BADA8" />
+        </ToolBar>
+        <StatusBar Margin="330,0,0,390" x:Name="StatusBar">
+            <TextBlock Text="" x:Name="TextBlock" Width="420" Height="35" />
+        </StatusBar>
     </Grid>
 </Window>
