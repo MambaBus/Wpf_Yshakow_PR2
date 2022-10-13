@@ -24,35 +24,10 @@ namespace Wpf_Yshakow_PR2
             InitializeComponent();
         }
 
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
-        {
-            this.planhet.EditingMode = InkCanvasEditingMode.Ink;
-        }
-
         private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             planhet.DefaultDrawingAttributes.Width = ((Slider)sender).Value;
             planhet.DefaultDrawingAttributes.Height = ((Slider)sender).Value;
-        }
-
-        private void Red_Click(object sender, RoutedEventArgs e)
-        {
-            planhet.DefaultDrawingAttributes.Color = Colors.Red;
-        }
-
-        private void Green_Click(object sender, RoutedEventArgs e)
-        {
-            planhet.DefaultDrawingAttributes.Color = Colors.Green;
-        }
-
-        private void Blue_Click(object sender, RoutedEventArgs e)
-        {
-            planhet.DefaultDrawingAttributes.Color = Colors.Blue;
-        }
-
-        private void Black_Click(object sender, RoutedEventArgs e)
-        {
-            planhet.DefaultDrawingAttributes.Color = Colors.Black;
         }
 
         private void lastik_Checked(object sender, RoutedEventArgs e)
@@ -61,6 +36,31 @@ namespace Wpf_Yshakow_PR2
                 planhet.EditingMode = InkCanvasEditingMode.EraseByPoint;
             else
                 planhet.EditingMode = InkCanvasEditingMode.Ink;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            planhet.DefaultDrawingAttributes.Color = Colors.Red;
+        }
+
+        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        {
+            this.planhet.EditingMode = InkCanvasEditingMode.Ink;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            planhet.DefaultDrawingAttributes.Color = Colors.Blue;
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            planhet.DefaultDrawingAttributes.Color = Colors.Green;
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            planhet.DefaultDrawingAttributes.Color = Colors.Black;
         }
     }
 }

@@ -10,24 +10,23 @@
         <Label x:Name="Label1" Content="Настройки" HorizontalAlignment="Left" FontSize="25" Width="145" Height="50" VerticalAlignment="Top" Margin="18,11,0,0"/>
         <Label x:Name="Label2" Content="Изменить цвет кисти: " HorizontalAlignment="Left" FontSize="15" Width="175" Height="30" VerticalAlignment="Top" Margin="25,129,0,0"/>
         <Label x:Name="Label3" Content="Размер кисти: " HorizontalAlignment="Left" FontSize="15" Width="200" Height="30" VerticalAlignment="Top" Margin="18,54,0,0"/>
-        <Label x:Name="Label4" Content="Планшет для рисования" HorizontalAlignment="Left" FontSize="25" Width="350" Height="50" VerticalAlignment="Top" Margin="330,14,0,0"/>
+        <Label x:Name="Label4" Content="Планшет для рисования" HorizontalAlignment="Left" FontSize="25" Width="350" Height="50" VerticalAlignment="Top" Margin="330,10,0,0"/>
 
-        <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="25,0,0,320" Width="187">
-            <Slider x:Name="Slider"  Minimum="1"  Maximum="100" Value="1" TickPlacement="BottomRight" TickFrequency="5" ValueChanged="Slider_ValueChanged" IsSelectionRangeEnabled="True" SmallChange="1"/>
-        </StackPanel>
-        
-        <Button x:Name="Red" Content="Красный" Width="70" Height="20" Margin="25,159,705,255" Click="Red_Click"></Button>
-        <Button x:Name="Green" Content="Зеленый" Width="70" Height="20" Margin="25,184,705,230" Click="Green_Click"></Button>
-        <Button x:Name="Blue" Content="Синий" Width="70" Height="20" Margin="100,184,630,230" Click="Blue_Click"></Button>
-        <Button x:Name="Black" Content="Чёрный" Width="70" Height="20" Margin="100,159,630,255" Click="Black_Click"></Button>
+        <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="25,0,0,320" Width="187"/>
 
-        <RadioButton GroupName="rusovanie" Content="Рисование" Width="100" Height="20" Margin="25,217,675,197" Checked="RadioButton_Checked"/>
-        <RadioButton x:Name="lastik" GroupName="redact" Content="Ластик" Width="100" Height="20" Margin="25,242,675,172" Checked="lastik_Checked" />
-
-        <InkCanvas Name="planhet" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="365" Width="540">
+        <InkCanvas Name="planhet" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="355" Width="540">
             <InkCanvas.DefaultDrawingAttributes>
                 <DrawingAttributes Color="Black" Height="10" Width="10" />
             </InkCanvas.DefaultDrawingAttributes>
         </InkCanvas>
+        <Slider  Minimum="1"  Maximum="100" Value="1"  TickFrequency="5" ValueChanged="Slider_ValueChanged" IsSelectionRangeEnabled="True" SmallChange="1" HorizontalAlignment="Left" Margin="25,91,0,0" VerticalAlignment="Top" Width="155"/>
+
+        <Button Content="Красный" HorizontalAlignment="Left" Margin="25,159,0,0" VerticalAlignment="Top" Width="70" Height="20" Background="#FFF74B0A" Click="Button_Click"/>
+        <Button Content="Синий" HorizontalAlignment="Left" Margin="100,184,0,0" VerticalAlignment="Top" Width="70" Height="20" Background="#FF0A2EF7" Click="Button_Click_1"/>
+        <Button Content="Зеленый" HorizontalAlignment="Left" Margin="25,184,0,0" VerticalAlignment="Top" Width="70" Height="20" Background="#FF48CA44" Click="Button_Click_2"/>
+        <Button Content="Черный" HorizontalAlignment="Left" Margin="100,159,0,0" VerticalAlignment="Top" Width="70" Height="20" Background="#FF5B5857" Click="Button_Click_3"/>
+
+        <RadioButton Content="Рисование" HorizontalAlignment="Left" Margin="25,217,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1" Height="22" Width="93"/>
+        <RadioButton Content="Ластик" HorizontalAlignment="Left" Margin="25,240,0,0" VerticalAlignment="Top" Checked="lastik_Checked" Height="22" Width="93"/>
     </Grid>
 </Window>
