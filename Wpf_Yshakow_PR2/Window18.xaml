@@ -6,7 +6,28 @@
         xmlns:local="clr-namespace:Wpf_Yshakow_PR2"
         mc:Ignorable="d"
         Title="Задание 2 Самостоятельной" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#FF8E11E9">
+        <Label x:Name="Label1" Content="Настройки" HorizontalAlignment="Left" FontSize="25" Width="145" Height="50" VerticalAlignment="Top" Margin="18,11,0,0"/>
+        <Label x:Name="Label2" Content="Изменить цвет кисти: " HorizontalAlignment="Left" FontSize="15" Width="175" Height="30" VerticalAlignment="Top" Margin="25,129,0,0"/>
+        <Label x:Name="Label3" Content="Размер кисти: " HorizontalAlignment="Left" FontSize="15" Width="200" Height="30" VerticalAlignment="Top" Margin="18,54,0,0"/>
+        <Label x:Name="Label4" Content="Планшет для рисования" HorizontalAlignment="Left" FontSize="25" Width="350" Height="50" VerticalAlignment="Top" Margin="330,14,0,0"/>
+
+        <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="25,0,0,320" Width="187">
+            <Slider x:Name="Slider"  Minimum="1"  Maximum="100" Value="1" TickPlacement="BottomRight" TickFrequency="5" ValueChanged="Slider_ValueChanged" IsSelectionRangeEnabled="True" SmallChange="1"/>
+        </StackPanel>
         
+        <Button x:Name="Red" Content="Красный" Width="70" Height="20" Margin="25,159,705,255" Click="Red_Click"></Button>
+        <Button x:Name="Green" Content="Зеленый" Width="70" Height="20" Margin="25,184,705,230" Click="Green_Click"></Button>
+        <Button x:Name="Blue" Content="Синий" Width="70" Height="20" Margin="100,184,630,230" Click="Blue_Click"></Button>
+        <Button x:Name="Black" Content="Чёрный" Width="70" Height="20" Margin="100,159,630,255" Click="Black_Click"></Button>
+
+        <RadioButton GroupName="rusovanie" Content="Рисование" Width="100" Height="20" Margin="25,217,675,197" Checked="RadioButton_Checked"/>
+        <RadioButton x:Name="lastik" GroupName="redact" Content="Ластик" Width="100" Height="20" Margin="25,242,675,172" Checked="lastik_Checked" />
+
+        <InkCanvas Name="planhet" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="365" Width="540">
+            <InkCanvas.DefaultDrawingAttributes>
+                <DrawingAttributes Color="Black" Height="10" Width="10" />
+            </InkCanvas.DefaultDrawingAttributes>
+        </InkCanvas>
     </Grid>
 </Window>
